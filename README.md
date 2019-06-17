@@ -13,3 +13,11 @@ The features 'RM', 'LSTAT', 'PTRATIO', and 'MEDV' are essential. The remaining n
 The feature 'MEDV' has been multiplicatively scaled to account for 35 years of market inflation.
 We'll start with the reading in the data, and separating the features and prices for homes into different pandas dataframes.
 
+
+Data Exploration
+In this section, we will make a cursory investigation about the Boston housing data.
+
+Since the main goal of this project is to construct a working model which has the capability of predicting the value of houses, we have separated the dataset into features and the target variable. The features, 'RM', 'LSTAT', and 'PTRATIO', give us quantitative information about each data point. The target variable, 'MEDV', will be the variable we seek to predict. These are stored in features and prices, respectively.
+
+Calculating Statistics
+We'll start with calculating some descriptive statistics about the Boston housing prices.
